@@ -1,0 +1,22 @@
+// El nombre del archivo DEBE ser FichaPersonalAna.java
+public class fichapersonalana{
+    public static void main(String[] args) {
+
+        // Datos de la ficha usando tipos primitivos
+        String nombre = "Ana García";
+        byte edad = 20;
+        float estatura = 1.65f;
+        char inicial = 'A';
+        boolean esActivo = true;
+        int codigo = 202101;
+
+        // Impresión con formato limpio
+        System.out.println("===== MI FICHA PERSONAL =====");
+        System.out.println("Nombre    : " + nombre);
+        System.out.println("Edad      : " + edad + " años");
+        System.out.println("Estatura  : " + estatura + " metros");
+        System.out.println("Inicial   : " + inicial);
+        System.out.println("Activo    : " + esActivo);
+        System.out.println("Código    : " + codigo);
+    }
+}
